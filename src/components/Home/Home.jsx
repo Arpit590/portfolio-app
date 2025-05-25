@@ -9,7 +9,7 @@ const Home = () => {
 
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = 'public/Arpit_Saxena_CV.pdf'; 
+        link.href = '/Arpit_Saxena_CV.pdf'; 
         link.download = 'Arpit_Saxena_Resume.pdf'; 
         document.body.appendChild(link);
         link.click();
