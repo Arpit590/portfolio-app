@@ -1,0 +1,151 @@
+@import url('../../fonts/fonts.css');
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 80px 0px;
+}
+
+.resume h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: var(--font-primary);
+  margin-bottom: 50px;
+}
+
+.resume-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.resume-intro {
+  align-items: center;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume-intro p{
+  font-size: 20px;
+  text-align: center;
+  width: 400px;
+  font-family: var(--font-primary);
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.download-btn {
+  background-color: black;
+  color: white;
+  font-family: var(--font-primary);
+  font-size: 20px;
+  text-align: center;
+  width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.download-btn:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.experience-highlights {
+  margin-right: 50px;
+}
+
+.experience-highlights h3 {
+  font-size: 20px;
+  font-family: var(--font-primary);
+  margin-bottom: 20px;
+}
+
+.experience-highlights li {
+  font-size: 18px;
+  font-family: var(--font-primary);
+  margin-bottom: 8px;
+  max-width: 500px;
+}
+
+@media (max-width: 900px) {
+  .resume-intro p{
+    font-size: 18px;
+    width: 300px;
+  }
+
+  .download-btn {
+    font-size: 15px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume-intro p{
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .download-btn {
+    font-size: 12px;
+    width: 80%;
+  }
+
+  .experience-highlights h3 {
+    font-size: 16px;
+  }
+
+  .experience-highlights li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .resume-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .experience-highlights {
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .resume-intro {
+    margin-left: 0px;
+  }
+
+  .resume h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .resume h2 {
+    font-size: 20px;
+  }
+
+  .resume-intro p{
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .experience-highlights h3 {
+    font-size: 14px;
+  }
+
+  .experience-highlights li {
+    font-size: 12px;
+  }
+}
+
+

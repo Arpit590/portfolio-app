@@ -1,0 +1,147 @@
+@import url('../../fonts/fonts.css');
+
+.contact {
+    margin: 0px 0px 100px 0px;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: var(--font-primary);
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    align-items: flex-start;
+    width: 100%;
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+}
+
+.contact-container1 {
+    margin-left: 50px;
+}
+
+.contact-container1 h1 {
+    font-size: 20px;
+    text-align: left;
+    font-family: var(--font-primary);
+    margin-bottom: 20px;
+}
+
+.contact-container1 p {
+    font-size: 20px;
+    width: 400px;
+    font-family: var(--font-primary);
+}
+
+.contact-container2 {
+    margin-right: 50px;
+}
+
+.contact-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-detail p {
+    font-size: 20px;
+    font-family: var(--font-primary);
+    margin-left: 10px;
+}
+
+.contact-subContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-subContainerSection {
+    background-color: whitesmoke;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-subContainerSection a:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+@media (max-width: 500px) {
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+    }
+
+    .contact-container1 {
+        margin-left: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .contact-container1 h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .contact-container1 p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .contact-container2 {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .contact-detail {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-detail p {
+        font-size: 16px;
+    }
+
+    .contact-subContainer {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .contact h2 {
+        font-size: 20px;
+    }
+
+    .contact-container1 h1 {
+        font-size: 16px;
+    }
+
+    .contact-container1 p {
+        font-size: 13px;
+        width: 250px;
+    }
+
+    .contact-subContainerSection {
+        border-radius: 100px;
+        height: 30px;
+        width: 30px;
+    }
+
+}
